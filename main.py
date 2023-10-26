@@ -4,8 +4,8 @@ self.model = model
 self.engine = engine
 self.km = km
 
-def km_degistir(self, km):
-self.km += km
+  def km_degistir(self, km):
+    self.km += km
 
 car1 = CarRent("civic", "gas", 1000)
 print(car1.km)
